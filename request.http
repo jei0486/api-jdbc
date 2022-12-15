@@ -1,0 +1,20 @@
+###
+# detail
+# /business/{businessID}
+GET http://localhost:7077/business/1
+
+###
+# create
+# /business
+POST http://localhost:7077/business
+Content-Type: application/json
+
+{
+    "name" : "test"
+    ,"description" : "test"
+    ,"phone" : "01012345678"
+    ,"email" : "test@test.com"
+    ,"address" : "seoul"
+}
+
+###
